@@ -15,8 +15,7 @@ const App = () => (
     <Box sx={{backgroundColor : '#000'}}>
     <NavBar /> 
     <Routes>
-        
-        
+
         <Route path='/' exact element={<Feed />} />
         <Route path='/video/:id' element={<VideoDetail />} />
         <Route path='/search/:searchTerm' element={< SearchFeed/>} />
